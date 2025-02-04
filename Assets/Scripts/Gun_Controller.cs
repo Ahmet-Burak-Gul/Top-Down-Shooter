@@ -9,11 +9,6 @@ public class Gun_Controller : MonoBehaviour
     [SerializeField] private GameObject cross;
     [SerializeField] private GameObject bullet;
 
-    void Start()
-    {
-        
-    }
-
     // Update is called once per frame
     void Update()
     {
