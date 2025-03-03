@@ -6,7 +6,6 @@ public class Gun_Controller : MonoBehaviour
 {
     private Vector3 mousePos;
 
-    [SerializeField] private GameObject cross;
     [SerializeField] private GameObject bullet;
 
     // Update is called once per frame
@@ -17,12 +16,6 @@ public class Gun_Controller : MonoBehaviour
             Input.mousePosition.y,
             transform.position.z
             ));
-
-        cross.transform.position = new Vector3(
-            mousePos.x,
-            mousePos.y,
-            transform.position.z
-            );
 
         if (Input.GetMouseButtonDown(0))
         {
